@@ -1,0 +1,12 @@
+
+
+
+
+
+RewriteEngine On
+
+RewriteOptions inherit
+
+
+RewriteCond %{HTTP_REFERER} .*images.search.yahoo.*$ [NC]
+
